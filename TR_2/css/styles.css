@@ -1,0 +1,50 @@
+*,*:before,*:after{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+  font-size:10px;
+}
+body{
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  background-color: #F3F0D7;
+  font-size:1.7rem;
+}
+header{
+  background-color: #5E454B;
+  padding:2% 0%;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+p{
+  margin: 1rem 1rem;
+}
+h1{
+  margin: 1rem 1rem;
+}
+h2{
+  margin:1rem 1rem;
+}
+section{
+  float: left;
+  width:70%;  
+  min-height:67vh;
+}
+aside{
+  float:right;
+  width:25%;
+  
+}
+footer{
+  clear:both;
+  background-color: #CEE5D0;
+  padding:3% 0;
+  text-align: center;
+  bottom:0;
+}
+.container{
+  width:80% ;
+  margin: 0 auto;
+}
