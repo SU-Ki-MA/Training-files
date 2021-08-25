@@ -1,0 +1,31 @@
+body{
+  background-color: #232323;
+  font-family: 'Montserrat', sans-serif;
+  font-size: large;
+  font-weight: 500;
+}
+.container{
+
+  height: 50vh;
+  width: 50vw;
+  resize: both;
+  overflow:hidden;
+  background-color: #444;
+  padding: 0.5em;
+  margin: 25vh auto 0;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* the following both r conflicting */
+  /* align-items: baseline; */
+  /* align-content: space-around; */
+}
+
+.item{
+  background-color: #55d6aa;
+  margin: 0.5em;
+  border-radius: 0.15em;
+  padding:0.3em;
+}
