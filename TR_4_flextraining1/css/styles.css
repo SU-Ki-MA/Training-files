@@ -20,7 +20,7 @@ body{
   justify-content: space-around;
   /* the following both r conflicting */
   /* align-items: baseline; */
-  /* align-content: space-around; */
+  /* align-content: space-around;*/ /* this involves multiple rows or columns */
 }
 
 .item{
