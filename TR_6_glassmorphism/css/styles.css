@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  min-height: 100vh;
+  background: linear-gradient(10deg,rgb(101, 223, 198),rgb(108, 219, 235),rgb(200, 94, 219),#3023e7,rgb(43, 243, 43));
+  background-size: 400% 400%;
+  animation: gradient 50000ms linear infinite;
+}
+@keyframes gradient{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position:100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
